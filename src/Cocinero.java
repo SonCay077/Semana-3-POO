@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Cocinero {
-    private String nombre;
-    private String especialidad;
-    private int experiencia;
+    public String nombre;
+    public String especialidad;
+    public int experiencia;
 
     public Cocinero(String nombre, String especialidad, int experiencia) {
         this.nombre = nombre;
