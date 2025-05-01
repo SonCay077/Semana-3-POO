@@ -21,7 +21,10 @@ public class Cocinero {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int cantidad = 3;
+        int cantidad;
+        System.out.print("Ingrese la cantidad de cocineros a ingresar: ");
+        cantidad = sc.nextInt();
+        sc.nextLine();
         Cocinero[] cocineros = new Cocinero[cantidad];
 
         for (int i = 0; i < cantidad; i++) {
